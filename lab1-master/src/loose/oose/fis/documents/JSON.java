@@ -22,7 +22,7 @@ public class JSON extends Document {
         return Arrays.copyOf(res, pos);
     }
 
-    public void doSomething() {}
+    public void Something() {}
 
     @Override
     public String toString() {
