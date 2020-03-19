@@ -22,6 +22,8 @@ public class JSON extends Document {
         return Arrays.copyOf(res, pos);
     }
 
+    public void doNothing(){}
+
     @Override
     public String toString() {
         return "JSON " + super.toString();
